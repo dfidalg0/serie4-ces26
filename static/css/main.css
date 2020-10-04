@@ -95,7 +95,7 @@ div#lucky a {
 #search input[type="submit"]:hover,
 .inputfile:focus + label,
 .inputfile + label:hover,
-button#ajax:hover {
+#ajax:hover {
     background-color: rgb(16, 32, 170);
 }
 
