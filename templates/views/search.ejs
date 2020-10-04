@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../components/meta', { title: 'Home' }) %>
+    <link rel="stylesheet" href="/static/css/cards.css">
+</head>
+<body>
+    <%- include('../components/header.ejs') %>
+    <div id="main">
+        <% for(const file of files) { %>
+            <%- include('../components/card.ejs', { file }) %> <br>
+        <% } %>
+    </div>
+</body>
+
+</html>

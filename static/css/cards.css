@@ -1,0 +1,24 @@
+.card-container {
+    color: #ffffff;
+    border-radius: 4pt;
+    background: rgb(61, 104, 100);
+    width: 300pt;
+    display: inline-block;
+    margin: 10pt;
+}
+
+.card-container > div {
+    text-align: right;
+    margin-top: 5pt;
+}
+
+.download-button {
+    text-align: right;
+    text-decoration: none;
+    font-size: 11pt;
+    color: whitesmoke;
+    display: inline-block;
+    margin: 2pt 13pt 6pt;
+    padding: 2pt 5pt 2pt 15pt;
+    background: #114d47;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../components/meta', { title: 'Home' }) %>
+    <script src="/static/js/main.js"></script>
+</head>
+<body>
+    <%- include('../components/header.ejs') %>
+    <div id="main">
+        <form id="search" autofocus action="/search">
+            <input type="text" name="q" placeholder="Texto de Busca" />
+            <br>
+            <input type="button" id="ajax" value="Estou com sorte">
+            <input type="submit" value="Buscar &rsaquo;">
+        </form>
+
+        <form id="upload" action="" method="POST" enctype="multipart/form-data">
+            <input id="file" class="inputfile" type="file" name="file">
+            <label for="file">Escolha um arquivo</label>
+            <p id="message"> Nenhum arquivo selectionado </p>
+            <input type="button" id="submit" value="Enviar!" />
+        </form>
+
+        <br>
+        <p id="lucky"> Você está com sorte hoje? </p>
+    </div>
+</body>
+</html>

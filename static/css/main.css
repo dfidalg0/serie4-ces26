@@ -1,0 +1,104 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  overflow: hidden;
+}
+
+#main {
+    flex: 1;
+    overflow-y: scroll;
+}
+
+#container {
+    color: aquamarine;
+    background: linear-gradient(
+        27deg,
+        rgba(2,0,36,1) 0%,
+        rgba(9,9,121,1) 31%,
+        rgba(7,43,144,1) 57%,
+        rgba(0,212,255,1) 100%
+    );
+    padding: 3pt;
+}
+
+#lucky {
+    margin: 20pt;
+}
+
+img#lucky {
+    max-width: 500pt;
+}
+
+div#lucky a {
+    text-decoration: unset;
+    color: #094e4e;
+}
+
+#search {
+    margin: 20pt;
+}
+
+#search input[type="text"] {
+    width: 200pt;
+    height: 20pt;
+    text-align: center;
+    border-radius: 3pt;
+    border: 2px solid #090979;
+    padding: 0;
+}
+
+#search input[type="text"]:focus {
+    outline: none;
+}
+
+#search input[type="submit"], #ajax {
+    height: 23pt;
+    width: 100pt;
+    background: blue;
+    color: whitesmoke;
+    border: thin solid #0c0627;
+    border-radius: 3pt;
+    cursor: pointer;
+    margin-top: 5pt;
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputfile + label,
+#upload input[type="button"] {
+    padding: 5pt 20pt 5pt 20pt;
+    margin-bottom: -5pt;
+    border: thin solid #0c0627;
+    border-radius: 3pt;
+    display: inline-block;
+    color: white;
+    background: blue;
+    cursor: pointer;
+}
+
+#upload input[type="button"]:hover,
+#search input[type="submit"]:hover,
+.inputfile:focus + label,
+.inputfile + label:hover,
+button#ajax:hover {
+    background-color: rgb(16, 32, 170);
+}
+
+#message {
+    font-size: 13px;
+}
