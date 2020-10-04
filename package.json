@@ -1,0 +1,27 @@
+{
+  "name": "serie4-ces26",
+  "version": "1.0.0",
+  "description": "Série 4 de exercícios da matéria CES-26 do ITA",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegood12/serie4-ces26.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegood12/serie4-ces26/issues"
+  },
+  "homepage": "https://github.com/diegood12/serie4-ces26#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.4"
+  }
+}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CES-26 - Busca</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+</head>
+
+<body>
+    <% for(const file of files) { %>
+        <a href="<%=`/static/uploads/${file}`%>">
+            <%= file %>
+        </a> <br>
+    <% } %>
+</body>
+
+</html>
